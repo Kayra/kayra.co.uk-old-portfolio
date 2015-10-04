@@ -1,2 +1,4 @@
-# Use the bower.json file to install the required components
+# Use the package.json file to install the required components
 node_modules/*
+
+.sass-cache/*
