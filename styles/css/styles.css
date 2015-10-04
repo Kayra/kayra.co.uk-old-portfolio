@@ -1,3 +1,33 @@
+/* #Basic Styles */
+/* ================================================== */
+body {
+  background-color: #2A2C41; }
 
+/* #Typography */
+/* ================================================== */
+p, h1, h2, h3, h4, h5, h6 {
+  color: #E6E6EA; }
+
+h1 {
+  letter-spacing: 0.03em;
+  font-size: 4.2em; }
+
+h2 {
+  margin-bottom: 0; }
+
+.passion {
+  color: #FC4D50;
+  margin-top: -0.3em;
+  margin-bottom: 1em; }
+
+p {
+  font-size: 1.3em; }
+
+/* #Links */
+/* ================================================== */
+/* #Images */
+/* ================================================== */
+img, a {
+  width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
