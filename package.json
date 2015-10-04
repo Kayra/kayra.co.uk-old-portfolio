@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A simple portfolio designed to give you an idea of my work.",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^3.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kayra/portfolio.git"
+  },
+  "author": "Kayra Alat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kayra/portfolio/issues"
+  },
+  "homepage": "https://github.com/Kayra/portfolio#readme"
+}

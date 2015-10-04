@@ -1,0 +1,2 @@
+# Use the bower.json file to install the required components
+node_modules/*
