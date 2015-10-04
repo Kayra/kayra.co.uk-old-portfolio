@@ -3,21 +3,38 @@
 body {
   background-color: #2A2C41; }
 
+.project {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em; }
+
 /* #Typography */
 /* ================================================== */
 p, h1, h2, h3, h4, h5, h6 {
   color: #E6E6EA; }
 
 h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 0.9em;
   letter-spacing: 0.03em;
-  font-size: 4.2em; }
+  font-size: 4.6em; }
 
 h2 {
-  margin-bottom: 0; }
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 2.5em;
+  line-height: 0.9em;
+  margin-bottom: 0.2em; }
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.2em;
+  margin-top: 0; }
 
 .passion {
   color: #FC4D50;
-  margin-top: -0.3em;
+  margin-top: -0.1em;
   margin-bottom: 1em; }
 
 p {
@@ -28,6 +45,8 @@ p {
 /* #Images */
 /* ================================================== */
 img, a {
-  width: 100%; }
+  width: 100%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
 
 /*# sourceMappingURL=styles.css.map */
