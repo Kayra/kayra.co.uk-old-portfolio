@@ -1,11 +1,21 @@
+/* #Colours */
+/* ================================================== */
+/* #Media Query Breakpoints */
+/* ================================================== */
 /* #Basic Styles */
 /* ================================================== */
 body {
   background-color: #2A2C41; }
 
-.project {
+header {
+  padding-top: 2em; }
+
+section {
   padding-top: 0.5em;
   padding-bottom: 0.5em; }
+
+.project header {
+  padding-bottom: 1em; }
 
 /* #Typography */
 /* ================================================== */
@@ -30,6 +40,7 @@ h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 1.2em;
+  font-size: 1.7em;
   margin-top: 0; }
 
 .passion {
@@ -50,5 +61,26 @@ img, a {
   width: 100%;
   margin-top: 0.5em;
   margin-bottom: 0.5em; }
+
+/* #Media Queries */
+/* ================================================== */
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 8.5em; }
+
+  h2 {
+    font-size: 4em; }
+
+  h3 {
+    font-size: 2.5em; }
+
+  p {
+    font-size: 2em; }
+
+  .project header {
+    padding-bottom: 2em; } }
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
 
 /*# sourceMappingURL=styles.css.map */
