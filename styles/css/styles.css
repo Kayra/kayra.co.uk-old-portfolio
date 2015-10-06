@@ -8,7 +8,7 @@ body {
   background-color: #2A2C41; }
 
 header {
-  padding-top: 2em; }
+  padding-top: 0.5em; }
 
 section {
   padding-top: 0.5em;
@@ -78,6 +78,9 @@ img, a {
   p {
     font-size: 2em; }
 
+  header {
+    padding-top: 2em; }
+
   .project header {
     padding-bottom: 2em; } }
 /* Medium devices (desktops, 992px and up) */
@@ -96,6 +99,9 @@ img, a {
 
   p {
     font-size: 1.6em; }
+
+  header {
+    padding-top: 2.5em; }
 
   section {
     padding-bottom: 1em; }
