@@ -1,7 +1,7 @@
-.*              export-ignore
-gruntfile.js    export-ignore
-package.json    export-ignore
-README.md       export-ignore
-node_modules/   export-ignore
-styles/sass/    export-ignore
-*.map           export-ignore
+.*                      export-ignore
+gruntfile.js            export-ignore
+package.json            export-ignore
+README.md               export-ignore
+node_modules/grunt*     export-ignore
+styles/sass/            export-ignore
+*.map                   export-ignore
