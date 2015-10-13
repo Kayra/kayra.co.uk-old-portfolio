@@ -1,10 +1,7 @@
 .*                                  export-ignore
 gruntfile.js                        export-ignore
 package.json                        export-ignore
-
-grunt/                 export-ignore
-grunt-browser-sync/    export-ignore
-grunt-contrib-sass/    export-ignore
-grunt-contrib-watch/   export-ignore
+README.md                           export-ignore
+node_modules/                       export-ignore
 styles/sass/                        export-ignore
 *.map                               export-ignore
