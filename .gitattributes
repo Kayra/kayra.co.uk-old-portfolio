@@ -1,7 +1,7 @@
 .*                                  export-ignore
 gruntfile.js                        export-ignore
 package.json                        export-ignore
-README.md                           export-ignore
+
 grunt/                 export-ignore
 grunt-browser-sync/    export-ignore
 grunt-contrib-sass/    export-ignore
