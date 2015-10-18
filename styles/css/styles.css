@@ -55,6 +55,13 @@ p {
 
 /* #Links */
 /* ================================================== */
+h3 a {
+  color: #E6E6EA;
+  text-decoration: none; }
+
+h3 a:hover {
+  text-decoration: underline; }
+
 /* #Images */
 /* ================================================== */
 img, a {
