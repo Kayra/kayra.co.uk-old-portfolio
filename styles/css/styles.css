@@ -57,10 +57,12 @@ p {
 /* ================================================== */
 h3 a {
   color: #E6E6EA;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: 0.5s; }
 
 h3 a:hover {
-  text-decoration: underline; }
+  transition: 0.5s;
+  color: #9E9E9E; }
 
 /* #Images */
 /* ================================================== */
