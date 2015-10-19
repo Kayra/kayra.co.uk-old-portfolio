@@ -55,14 +55,14 @@ p {
 
 /* #Links */
 /* ================================================== */
-h3 a {
+h3 a, h2 a {
   color: #E6E6EA;
   text-decoration: none;
   transition: 0.5s; }
-
-h3 a:hover {
-  transition: 0.5s;
-  color: #9E9E9E; }
+  h3 a:hover, h2 a:hover {
+    transition: 0.5s;
+    text-decoration: none;
+    color: #9E9E9E; }
 
 /* #Images */
 /* ================================================== */
