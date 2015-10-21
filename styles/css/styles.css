@@ -17,9 +17,14 @@ section {
 .project header {
   padding-bottom: 1em; }
 
+footer {
+  display: block;
+  text-align: center;
+  padding-bottom: 1em; }
+
 /* #Typography */
 /* ================================================== */
-p, h1, h2, h3, h4, h5, h6 {
+p, ul li a, h1, h2, h3, h4, h5, h6 {
   color: #E6E6EA; }
 
 h1 {
@@ -48,7 +53,7 @@ h3 {
   margin-top: -0.1em;
   margin-bottom: 1em; }
 
-p {
+p, ul li a {
   font-size: 1.3em;
   font-weight: 200;
   letter-spacing: 0.04em; }
@@ -71,6 +76,21 @@ img, a {
   margin-top: 0.5em;
   margin-bottom: 0.5em; }
 
+/* #Lists */
+/* ================================================== */
+ul li a {
+  color: #E6E6EA;
+  text-decoration: none;
+  transition: 0.5s; }
+  ul li a:hover {
+    transition: 0.5s;
+    text-decoration: none;
+    color: #9E9E9E; }
+
+li {
+  display: inline;
+  padding: 0 1em; }
+
 /* #Media Queries */
 /* ================================================== */
 /* Small devices (tablets, 768px and up) */
@@ -84,7 +104,7 @@ img, a {
   h3 {
     font-size: 2.5em; }
 
-  p {
+  p, ul li a {
     font-size: 2em; }
 
   header {
@@ -106,7 +126,7 @@ img, a {
   h3 {
     font-size: 2.5em; }
 
-  p {
+  p, ul li a {
     font-size: 1.6em; }
 
   header {
