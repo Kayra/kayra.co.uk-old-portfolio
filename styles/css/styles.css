@@ -86,6 +86,15 @@ h3 a, h2 a {
     text-decoration: none;
     color: #9E9E9E; }
 
+p a, ul li a a {
+  color: #E6E6EA;
+  border-bottom: 2px solid;
+  transition: 0.5s; }
+  p a:hover, ul li a a:hover {
+    transition: 0.5s;
+    color: #9E9E9E;
+    text-decoration: none; }
+
 /* #Images */
 /* ================================================== */
 img, a {
