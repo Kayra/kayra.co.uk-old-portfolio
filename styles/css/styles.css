@@ -95,6 +95,9 @@ p a, ul li a a {
     color: #9E9E9E;
     text-decoration: none; }
 
+.link-no-underline {
+  border-bottom: none; }
+
 /* #Images */
 /* ================================================== */
 img, a {
