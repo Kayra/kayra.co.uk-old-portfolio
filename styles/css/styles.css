@@ -1,6 +1,9 @@
 @font-face {
   font-family: "Futura";
   src: url("resources/fonts/Futura.ttf"); }
+@font-face {
+  font-family: "Roboto-Condensed";
+  src: url("resources/fonts/RobotoCondensed-Regular.ttf"); }
 h1 {
   font-family: "Futura", sans-serif;
   text-transform: uppercase;
