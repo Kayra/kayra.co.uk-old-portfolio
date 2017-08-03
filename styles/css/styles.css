@@ -6,6 +6,12 @@ body {
   color: white;
   background-color: #B5D7D2; }
 
+footer a {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white; }
+
 h1 {
   font-family: "Futura", sans-serif;
   text-transform: uppercase;
