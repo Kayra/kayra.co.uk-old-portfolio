@@ -3,8 +3,8 @@
   font-family: "Futura";
   src: url("resources/fonts/Futura.ttf"); }
 body {
-  background-color: #B5D7D2;
-  color: white; }
+  color: white;
+  background-color: #B5D7D2; }
 
 h1 {
   font-family: "Futura", sans-serif;

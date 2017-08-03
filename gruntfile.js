@@ -1,5 +1,7 @@
 module.exports = function(grunt) {
+
     grunt.initConfig({
+
         // Watch task config
         watch: {
             sass: {
@@ -7,6 +9,7 @@ module.exports = function(grunt) {
                 tasks: ['sass']
             }
         },
+
         // SASS compile task config
         sass: {
             dev: {
@@ -35,9 +38,10 @@ module.exports = function(grunt) {
         }
     });
 
-    grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-browser-sync');
 
     grunt.registerTask('default', ['browserSync', 'watch']);
+
 };
