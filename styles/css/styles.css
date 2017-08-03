@@ -19,7 +19,7 @@ footer a {
   letter-spacing: 0.2em;
   font-size: 3em;
   color: white; }
-  footer a:hover {
+  footer a:hover, footer a:focus {
     text-decoration: none;
     color: gray; }
 
