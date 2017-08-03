@@ -1,3 +1,9 @@
-A simple portfolio designed to give you an idea of my work.
+## To run it:
 
-Hosted at kayra.co.uk
+    npm install
+    grunt
+
+
+## To dev, make sure you have SASS installed:
+
+    sudo gem install sass
