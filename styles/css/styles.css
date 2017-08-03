@@ -34,7 +34,17 @@ h4 a {
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-  color: white; }
+  color: white;
+  transition: color 0.3s; }
+  h4 a:hover {
+    text-decoration: none;
+    color: gray; }
+
+section span {
+  transition: color 0.3s; }
+  section span:hover {
+    text-decoration: none;
+    color: gray; }
 
 img {
   max-width: 100%;
