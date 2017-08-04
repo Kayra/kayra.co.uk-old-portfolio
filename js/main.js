@@ -9,8 +9,8 @@
 
         $(".header h4, .header span, .header img").mouseover(function() {
 
-            var header = $(this).parent().siblings().find('h4');
-            var span = $(this).parent().siblings().find('span');
+            var header_text = $(this).parent().siblings().find('h4');
+            var chevron_span = $(this).parent().siblings().find('span');
             var img = $(this).parent().siblings().find('img');
 
         });
