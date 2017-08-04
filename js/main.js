@@ -9,6 +9,4 @@
 
    });
 
-   // The rest of the code goes here!
-
 }(window.jQuery, window, document));
