@@ -2,7 +2,7 @@
 
    $(function() {
 
-     // The DOM is ready!
+
 
    });
 
