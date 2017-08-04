@@ -3,7 +3,9 @@
    $(function() {
 
         $(".header").click(function() {
-            $(this).closest('div').next('.content').toggle();
+            $(this).closest('div').next('.content').slideToggle();
+            // console.log($(this).children("span.glyphicon.glyphicon-chevron-down.right"));
+            $(this).children("span").toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
         });
 
    });

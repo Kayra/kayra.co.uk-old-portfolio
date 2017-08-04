@@ -58,6 +58,13 @@ h4, section span {
     text-decoration: none;
     color: gray; }
 
+h4 a {
+  color: white;
+  transition: color 0.3s; }
+  h4 a:hover {
+    text-decoration: none;
+    color: gray; }
+
 img {
   max-width: 100%; }
 
