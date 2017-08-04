@@ -91,26 +91,6 @@ section img {
 .right {
   float: right; }
 
-.header h4 {
-  transition: color 0.3s;
-  transition: color 0.3s; }
-  .header h4:hover {
-    text-decoration: none;
-    color: gray; }
-  .header h4:hover + span {
-    text-decoration: none;
-    color: gray; }
-
-.header span {
-  transition: color 0.3s;
-  transition: color 0.3s; }
-  .header span:hover {
-    text-decoration: none;
-    color: gray; }
-  .header span:hover + .header h4 {
-    text-decoration: none;
-    color: gray; }
-
 .content {
   padding: 2em 0 3em 0;
   display: none; }
