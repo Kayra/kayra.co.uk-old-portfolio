@@ -76,6 +76,7 @@ section img {
   float: right; }
 
 .content {
-  padding: 1em 0; }
+  padding: 1em 0;
+  display: none; }
 
 /*# sourceMappingURL=styles.css.map */
