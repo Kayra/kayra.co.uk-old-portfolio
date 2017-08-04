@@ -65,6 +65,15 @@ h4 a {
     text-decoration: none;
     color: gray; }
 
+h5 {
+  text-transform: uppercase;
+  padding-top: 0.5em;
+  letter-spacing: 0.2em;
+  font-size: 1.5em; }
+
+p {
+  font-size: 1.3em; }
+
 img {
   max-width: 100%; }
 
@@ -85,7 +94,7 @@ section img {
   float: right; }
 
 .content {
-  padding: 1em 0;
+  padding: 2em 0 3em 0;
   display: none; }
 
 /*# sourceMappingURL=styles.css.map */
