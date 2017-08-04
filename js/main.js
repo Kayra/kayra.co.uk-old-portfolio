@@ -2,7 +2,9 @@
 
    $(function() {
 
-
+        $(".header").click(function() {
+            $(this).closest('div').next('.content').hide();
+        });
 
    });
 
